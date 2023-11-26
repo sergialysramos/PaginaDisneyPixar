@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.contenido ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-bottom: 90px;
+    
+}
+
+.contenido {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contenido ul li a img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a:hover , .contenido ul li a:hover {
+    color:rgb(77, 146, 214);
+}
+
+
+ .contenido img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 960px) {
+    .contenido ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .contenido ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+.logo-disney {
+    width: 90px;
+    align-items: center;
+}
+
+.ayuda {
+    display: block;
+    justify-content: space-between;
+    margin: 0 3%;
+}
+
+.ayuda a {
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    
+}
+
+.redes img {
+ margin-right: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
